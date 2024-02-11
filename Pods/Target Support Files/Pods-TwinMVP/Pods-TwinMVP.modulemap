@@ -1,0 +1,6 @@
+framework module Pods_TwinMVP {
+  umbrella header "Pods-TwinMVP-umbrella.h"
+
+  export *
+  module * { export * }
+}

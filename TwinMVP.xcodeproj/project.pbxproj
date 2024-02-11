@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEF98481D5A3EEAB6C995E7 /* Pods_TwinMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2439457F242FB4D6906721B /* Pods_TwinMVP.framework */; };
+		F6A29D232B0E16CE00CBF556 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A29D222B0E16CE00CBF556 /* WelcomeViewController.swift */; };
+		F6A29D252B0E16D600CBF556 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A29D242B0E16D600CBF556 /* RegisterViewController.swift */; };
+		F6A29D272B30B82900CBF556 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A29D262B30B82900CBF556 /* GradientColor.swift */; };
+		F6A29D292B5D9FEC00CBF556 /* FirebaseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A29D282B5D9FEC00CBF556 /* FirebaseUser.swift */; };
+		F6A29D2B2B79412100CBF556 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A29D2A2B79412100CBF556 /* Constants.swift */; };
+		F6C2409E2AFD0E840056DF02 /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = F6C2409D2AFD0E840056DF02 /* ProgressHUD */; };
+		F6C5EA232AF65A0F00746233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5EA222AF65A0F00746233 /* AppDelegate.swift */; };
+		F6C5EA252AF65A0F00746233 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5EA242AF65A0F00746233 /* SceneDelegate.swift */; };
+		F6C5EA2A2AF65A0F00746233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5EA282AF65A0F00746233 /* Main.storyboard */; };
+		F6C5EA2C2AF65A1100746233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C5EA2B2AF65A1100746233 /* Assets.xcassets */; };
+		F6C5EA2F2AF65A1100746233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5EA2D2AF65A1100746233 /* LaunchScreen.storyboard */; };
+		F6C5EA372AF65DFB00746233 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6C5EA362AF65DFB00746233 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00325435F49B9F71F7AF4CFB /* Pods-TwinMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinMVP.release.xcconfig"; path = "Target Support Files/Pods-TwinMVP/Pods-TwinMVP.release.xcconfig"; sourceTree = "<group>"; };
+		9477FCDE89BBB82593A82248 /* Pods-TwinMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwinMVP.debug.xcconfig"; path = "Target Support Files/Pods-TwinMVP/Pods-TwinMVP.debug.xcconfig"; sourceTree = "<group>"; };
+		F2439457F242FB4D6906721B /* Pods_TwinMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwinMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A29D222B0E16CE00CBF556 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F6A29D242B0E16D600CBF556 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F6A29D262B30B82900CBF556 /* GradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		F6A29D282B5D9FEC00CBF556 /* FirebaseUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUser.swift; sourceTree = "<group>"; };
+		F6A29D2A2B79412100CBF556 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6C5EA1F2AF65A0F00746233 /* TwinMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwinMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C5EA222AF65A0F00746233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6C5EA242AF65A0F00746233 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6C5EA292AF65A0F00746233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C5EA2B2AF65A1100746233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C5EA2E2AF65A1100746233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C5EA302AF65A1100746233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C5EA362AF65DFB00746233 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C5EA1C2AF65A0F00746233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEF98481D5A3EEAB6C995E7 /* Pods_TwinMVP.framework in Frameworks */,
+				F6C2409E2AFD0E840056DF02 /* ProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DE7A75C4C71BFF307CC8EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2439457F242FB4D6906721B /* Pods_TwinMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9130BB8EE51209DD56B13EB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9477FCDE89BBB82593A82248 /* Pods-TwinMVP.debug.xcconfig */,
+				00325435F49B9F71F7AF4CFB /* Pods-TwinMVP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6C5EA162AF65A0F00746233 = {
+			isa = PBXGroup;
+			children = (
+				F6C5EA212AF65A0F00746233 /* TwinMVP */,
+				F6C5EA202AF65A0F00746233 /* Products */,
+				9130BB8EE51209DD56B13EB9 /* Pods */,
+				4DE7A75C4C71BFF307CC8EE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C5EA202AF65A0F00746233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5EA1F2AF65A0F00746233 /* TwinMVP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C5EA212AF65A0F00746233 /* TwinMVP */ = {
+			isa = PBXGroup;
+			children = (
+				F6A29D222B0E16CE00CBF556 /* WelcomeViewController.swift */,
+				F6A29D242B0E16D600CBF556 /* RegisterViewController.swift */,
+				F6C5EA222AF65A0F00746233 /* AppDelegate.swift */,
+				F6C5EA242AF65A0F00746233 /* SceneDelegate.swift */,
+				F6C5EA282AF65A0F00746233 /* Main.storyboard */,
+				F6C5EA2B2AF65A1100746233 /* Assets.xcassets */,
+				F6C5EA2D2AF65A1100746233 /* LaunchScreen.storyboard */,
+				F6C5EA302AF65A1100746233 /* Info.plist */,
+				F6C5EA362AF65DFB00746233 /* GoogleService-Info.plist */,
+				F6A29D262B30B82900CBF556 /* GradientColor.swift */,
+				F6A29D282B5D9FEC00CBF556 /* FirebaseUser.swift */,
+				F6A29D2A2B79412100CBF556 /* Constants.swift */,
+			);
+			path = TwinMVP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C5EA1E2AF65A0F00746233 /* TwinMVP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C5EA332AF65A1100746233 /* Build configuration list for PBXNativeTarget "TwinMVP" */;
+			buildPhases = (
+				F6878D17600B7865422B1777 /* [CP] Check Pods Manifest.lock */,
+				F6C5EA1B2AF65A0F00746233 /* Sources */,
+				F6C5EA1C2AF65A0F00746233 /* Frameworks */,
+				F6C5EA1D2AF65A0F00746233 /* Resources */,
+				E0C4D0AB7EAB6375C3694275 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwinMVP;
+			packageProductDependencies = (
+				F6C2409D2AFD0E840056DF02 /* ProgressHUD */,
+			);
+			productName = TwinMVP;
+			productReference = F6C5EA1F2AF65A0F00746233 /* TwinMVP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C5EA172AF65A0F00746233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F6C5EA1E2AF65A0F00746233 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F6C5EA1A2AF65A0F00746233 /* Build configuration list for PBXProject "TwinMVP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6C5EA162AF65A0F00746233;
+			packageReferences = (
+				F6C2409C2AFD0E840056DF02 /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+			);
+			productRefGroup = F6C5EA202AF65A0F00746233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C5EA1E2AF65A0F00746233 /* TwinMVP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C5EA1D2AF65A0F00746233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C5EA2F2AF65A1100746233 /* LaunchScreen.storyboard in Resources */,
+				F6C5EA2C2AF65A1100746233 /* Assets.xcassets in Resources */,
+				F6C5EA2A2AF65A0F00746233 /* Main.storyboard in Resources */,
+				F6C5EA372AF65DFB00746233 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0C4D0AB7EAB6375C3694275 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwinMVP/Pods-TwinMVP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwinMVP/Pods-TwinMVP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwinMVP/Pods-TwinMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6878D17600B7865422B1777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwinMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C5EA1B2AF65A0F00746233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A29D232B0E16CE00CBF556 /* WelcomeViewController.swift in Sources */,
+				F6C5EA232AF65A0F00746233 /* AppDelegate.swift in Sources */,
+				F6C5EA252AF65A0F00746233 /* SceneDelegate.swift in Sources */,
+				F6A29D252B0E16D600CBF556 /* RegisterViewController.swift in Sources */,
+				F6A29D2B2B79412100CBF556 /* Constants.swift in Sources */,
+				F6A29D272B30B82900CBF556 /* GradientColor.swift in Sources */,
+				F6A29D292B5D9FEC00CBF556 /* FirebaseUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6C5EA282AF65A0F00746233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C5EA292AF65A0F00746233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6C5EA2D2AF65A1100746233 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C5EA2E2AF65A1100746233 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C5EA312AF65A1100746233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6C5EA322AF65A1100746233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C5EA342AF65A1100746233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9477FCDE89BBB82593A82248 /* Pods-TwinMVP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 468L7DBSBY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinMVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanat.TwinMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6C5EA352AF65A1100746233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00325435F49B9F71F7AF4CFB /* Pods-TwinMVP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 468L7DBSBY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TwinMVP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amanat.TwinMVP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C5EA1A2AF65A0F00746233 /* Build configuration list for PBXProject "TwinMVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C5EA312AF65A1100746233 /* Debug */,
+				F6C5EA322AF65A1100746233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C5EA332AF65A1100746233 /* Build configuration list for PBXNativeTarget "TwinMVP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C5EA342AF65A1100746233 /* Debug */,
+				F6C5EA352AF65A1100746233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6C2409C2AFD0E840056DF02 /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6C2409D2AFD0E840056DF02 /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6C2409C2AFD0E840056DF02 /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F6C5EA172AF65A0F00746233 /* Project object */;
+}
